@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/swiper-3.3.1.min.css">
+</head>
+<script>
+    document.documentElement.style.fontSize = window.innerWidth / 10 + 'px';
+</script>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="left">
+                <ul>
+                    <li class="action">精选</li>
+                    <li>爱看</li>
+                    <li>电视剧</li>
+                    <li>电影</li>
+                    <li>综艺</li>
+                    <li>少儿</li>
+                </ul>
+            </div>
+            <div class="right iconfont">&#xe6f9</div>
+        </header>
+        <section>
+            <div class="sousuo">
+                <input type="text" placeholder="斗罗大世界">
+                <i class="iconfont">&#xe6f9</i>
+                <i class="iconfont">&#xe6f9</i>
+                <i class="iconfont">&#xe6f9</i>
+            </div>
+            <div class="banner">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/banner1.png" /></div>
+                    <div class="swiper-slide"><img src="./images/banner1.png" /></div>
+                    <div class="swiper-slide"><img src="./images/banner1.png" /></div>
+                    <div class="swiper-slide"><img src="./images/banner1.png" /></div>
+                </div>
+            </div>
+            <div class="nav">
+                <h2>重磅热播</h2>
+                <div class="list">
+                    <dl>
+                        <dt><img src="./images/image1.png" alt=""></dt>
+                        <dd>
+                            <h3>南方有乔木</h3>
+                            <span>南乔or安宁？陈伟霆难抉择</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="./images/image2.png" alt=""></dt>
+                        <dd>
+                            <h3>南方有乔木</h3>
+                            <span>南乔or安宁？陈伟霆难抉择</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="./images/image3.png" alt=""></dt>
+                        <dd>
+                            <h3>南方有乔木</h3>
+                            <span>南乔or安宁？陈伟霆难抉择</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="./images/image4.png" alt=""></dt>
+                        <dd>
+                            <h3>南方有乔木</h3>
+                            <span>南乔or安宁？陈伟霆难抉择</span>
+                        </dd>
+                    </dl>
+
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <ul>
+                <li class="action">首页</li>
+                <li>热点</li>
+                <li>VIP会员</li>
+                <li>doki</li>
+                <li>个人中心</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="./js/swiper-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        var banner = new Swiper('.banner', {
+            loop: true,
+            autoplay: 2000
+        })
+    </script>
+
+</body>
+
+</html>
